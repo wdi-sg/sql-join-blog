@@ -1,3 +1,5 @@
+\c hw_joins
+
 -- 1. Get posts containing a specific keyword (e.g. "about").
 
 
