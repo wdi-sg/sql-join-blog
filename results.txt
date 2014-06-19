@@ -1,0 +1,198 @@
+### Question 1
+(used 'about' as the keyword)
+
+  title
+----------
+ Title 06
+ Title 04
+ Title 05
+ Title 36
+(4 rows)
+
+
+### Question 2
+
+ year |  title
+------+----------
+ 2009 | Title 39
+ 2010 | Title 16
+ 2011 | Title 24
+ 2011 | Title 12
+ 2011 | Title 26
+ 2011 | Title 20
+ 2012 | Title 10
+ 2012 | Title 30
+ 2012 | Title 11
+ 2012 | Title 23
+ 2012 | Title 38
+ 2012 | Title 27
+ 2012 | Title 17
+ 2012 | Title 31
+ 2012 | Title 35
+ 2013 | Title 22
+ 2013 | Title 33
+ 2013 | Title 19
+ 2013 | Title 15
+ 2013 | Title 32
+ 2013 | Title 34
+ 2013 | Title 36
+ 2014 | Title 01
+ 2014 | Title 04
+ 2014 | Title 09
+ 2014 | Title 07
+ 2014 | Title 05
+ 2014 | Title 03
+ 2014 | Title 14
+ 2014 | Title 06
+ 2014 | Title 08
+ 2014 | Title 29
+ 2014 | Title 25
+ 2014 | Title 28
+ 2014 | Title 37
+ 2014 | Title 18
+ 2014 | Title 21
+ 2014 | Title 02
+ 2015 | Title 13
+(39 rows)
+
+
+### Question 3
+
+  title   | characters
+----------+------------
+ Title 06 |         50
+ Title 24 |         44
+ Title 20 |         43
+ Title 17 |         40
+ Title 03 |         40
+(5 rows)
+
+
+### Question 4
+
+ login  | total_comments
+--------+----------------
+ Bryan  |              1
+ Missy  |              1
+ Stevie |              2
+ Tanya  |              3
+ Jill   |              3
+ Carol  |              1
+ George |              6
+ Chris  |              5
+ Sue    |              1
+ Mary   |              1
+ Dana   |              1
+ Alex   |              1
+ Alan   |              2
+(13 rows)
+
+
+### Question 5
+(used 'Jill' as the login)
+
+  title   | most_recent_comment_date
+----------+--------------------------
+ Title 38 | 2014-11-19
+ Title 31 | 2012-04-23
+(2 rows)
+
+
+### Question 6
+
+    login    |      name       | comments_count
+-------------+-----------------+----------------
+ Alan        | Books           |              1
+ Alan        | Lifehacks       |              1
+ Alex        | Music           |              1
+ Bryan       | Music           |              1
+ Bryan       | Technology      |              1
+ Carol       | Books           |              1
+ Chris       | Dating          |              1
+ Christopher | Music           |              1
+ Dana        | Music           |              1
+ George      | Books           |              1
+ George      | Music           |              1
+ George      | Venture Capital |              3
+ Hill        | Lifehacks       |              1
+ Hill        | Music           |              1
+ Jack        | Music           |              2
+ Jill        | Music           |              2
+ Mary        | Dating          |              1
+ Missy       | Music           |              1
+ Stevie      | Music           |              1
+ Sue         | Music           |              1
+ Tanya       | Venture Capital |              2
+ Went        | Music           |              2
+(22 rows)
+
+
+### Question 7
+
+  title   | comments_count
+----------+----------------
+ Title 28 |              2
+ Title 13 |              1
+(2 rows)
+
+
+### Question 8
+
+  title   | runtime
+----------+---------
+ Title 28 |     945
+ Title 12 |     631
+ Title 38 |     202
+ Title 35 |      63
+ Title 15 |       0
+ Title 14 |       0
+ Title 31 |       0
+ Title 24 |       0
+ Title 16 |       0
+ Title 32 |       0
+ Title 21 |       0
+ Title 25 |       0
+ Title 13 |       0
+ Title 36 |       0
+ Title 30 |       0
+ Title 19 |       0
+ Title 18 |       0
+ Title 17 |       0
+ Title 22 |       0
+ Title 33 |       0
+ Title 34 |       0
+(21 rows)
+
+
+### Question 9
+
+ post_title
+------------
+ Title 28
+ Title 25
+ Title 13
+(3 rows)
+
+
+### Question 10
+
+    login    |      name       | comments_count
+-------------+-----------------+----------------
+ Alan        | Books           |              1
+ Alex        | Music           |              1
+ Bryan       | Music           |              1
+ Carol       | Books           |              1
+ Chris       | Dating          |              1
+ Christopher | Music           |              1
+ Dana        | Music           |              1
+ George      | Venture Capital |              3
+ Hill        | Music           |              1
+ Jack        | Music           |              2
+ Jill        | Music           |              2
+ Mary        | Dating          |              1
+ Missy       | Music           |              1
+ Stevie      | Music           |              1
+ Sue         | Music           |              1
+ Tanya       | Venture Capital |              2
+ Went        | Music           |              2
+(17 rows)
