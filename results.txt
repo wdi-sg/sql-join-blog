@@ -165,6 +165,7 @@
 
 
 ### Question 9
+(used 'George' as the login)
 
  post_title
 ------------
