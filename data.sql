@@ -2,7 +2,7 @@
 
 -- Create sample users
 
-INSERT INTO users (login) VALUES
+INSERT INTO users (name) VALUES
   ('Kelly'),
   ('Chris'),
   ('Kim'),
@@ -38,7 +38,7 @@ INSERT INTO categories (name) VALUES
 
 -- Create sample blog posts
 
-WITH temp (login, title, content, category, created_at) AS
+WITH temp (name, title, content, category, created_at) AS
 (VALUES
   ('Kelly', 'Title 01', 'Content of blog post the best pizza.', 'Books', '2014-4-30'),
   ('Chris', 'Title 02', 'Content of blog post tshirts are dumb.', 'Music', '2014-4-12'),
@@ -86,13 +86,13 @@ SELECT
   users.id, temp.title, temp.content, categories.id, temp.created_at::date
 FROM
   users JOIN temp
-    ON temp.login = users.login
+    ON temp.name = users.name
     JOIN categories
       ON temp.category = categories.name;
 
 -- Create sample comments
 
-WITH temp (login, title, content, created_at) AS
+WITH temp (name, title, content, created_at) AS
 (VALUES
   ('Dana', 'Title 12', 'Random comments asdfsdf.', '2012-4-29'),
   ('Alan', 'Title 13', 'Random comments soo.', '2016-3-30'),
@@ -129,6 +129,6 @@ SELECT
   users.id, posts.id, temp.content, temp.created_at::date
 FROM
   users JOIN temp
-    ON temp.login = users.login
+    ON temp.name = users.name
     JOIN posts
       ON temp.title = posts.title;
