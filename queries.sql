@@ -8,8 +8,7 @@ select comments.content as comment from comments inner join posts on posts.id = 
 select name from comments inner join posts on posts.id = post_id inner join users on posts.author_id = users.id where posts.author_id = comments.author_id group by users.id;
 
 -- all the posts that have more than one comment
-select title from posts inner join comments on posts.id = post_id where count(comments.id) > 1 group by posts.id;
-
+select title, count(comments.id) as count  from posts inner join comments on posts.id = post_id  group by posts.id having count(comments.id) > 1 ;
 -- create a join table for post and user to store likes ( a post can have many likes, a user can like many posts )
 CREATE TABLE IF NOT EXISTS likes (
   id SERIAL PRIMARY KEY,
