@@ -1,5 +1,5 @@
 -- all the users that commented on a single post (ex. post id 1)
-SELECT 
+SELECT U.name || ' (' || U.id || ')' AS "user"
 FROM comments C
 JOIN users U ON C.author_id = U.id
 GROUP BY 1 
