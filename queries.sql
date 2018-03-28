@@ -42,17 +42,16 @@ CREATE TABLE IF NOT EXISTS likes (
 )
 
 -- create a query to get all the likes a user has made
-SELECT likes.author_id, likes.posts_id
+SELECT likes.author_id, posts.title
 FROM likes
 INNER JOIN posts ON posts.id = likes.posts_id
-GROUP BY likes.author_id
-HAVING count(likes.posts_id) > 0;
+WHERE likes.author_id = "1";
 
 -- create a query to get all users that like a post
-SELECT name
+SELECT users.name
 FROM users
 INNER JOIN likes ON likes.author_id = users.id
-WHERE likes.author_id = users.id;
+WHERE likes.posts_id = "1";
 
 -- create a query to get all the posts a user has liked
 SELECT post.title
