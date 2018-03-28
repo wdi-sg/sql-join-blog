@@ -1,4 +1,4 @@
-\c hw_joins
+\c sqljoinblog
 
 -- Create sample users
 
