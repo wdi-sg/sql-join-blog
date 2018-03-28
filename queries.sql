@@ -4,8 +4,6 @@
 
 -- all the users that commented on their own post
 
--- all the posts that have more than one comment
-
 -- create a join table for post and user to store likes ( a post can have many likes, a user can like many posts )
 
 -- create a query to get all the likes a user has made
