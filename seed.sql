@@ -1,4 +1,4 @@
-\c hw_joins
+\c a_palooza
 
 -- Create sample users
 
