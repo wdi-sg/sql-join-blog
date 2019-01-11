@@ -24,3 +24,9 @@ CREATE TABLE IF NOT EXISTS comments (
   author_id INTEGER,
   post_id INTEGER
 );
+
+
+CREATE TABLE IF NOT EXISTS likes (
+    posts_id integer REFERENCES posts (id),
+    user_id integer REFERENCES users (id)
+);

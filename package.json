@@ -1,0 +1,22 @@
+{
+  "name": "sql-join-blog",
+  "version": "1.0.0",
+  "description": "Using the included schema (`tables.sql`) and sample data (`seed.sql` - you can add more if it helps your testing), write SQL queries that will answer the questions listed in `queries.sql`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damienteo/sql-join-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damienteo/sql-join-blog/issues"
+  },
+  "homepage": "https://github.com/damienteo/sql-join-blog#readme",
+  "dependencies": {
+    "pg": "^7.7.1"
+  }
+}
