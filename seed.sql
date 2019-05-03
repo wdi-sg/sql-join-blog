@@ -1,4 +1,3 @@
-\c hw_joins
 
 -- Create sample users
 
